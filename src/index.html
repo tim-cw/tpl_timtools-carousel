@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ma première composante | CW4.S03</title>
+
+        <link rel="stylesheet" href="styles/main.css" />
+
+        <script src="scripts/main.js" defer></script>
+    </head>
+
+    <body>
+        <div class="site-container">
+            <section class="section">
+                <!-- Carousel restaurant -->
+                <div class="wrapper">
+                    <h1 class="u-mb-4">Ma première composante</h1>
+                    <h2>Photos de restaurants (1 photo à la fois)</h2>
+                    <ul>
+                        <li>variant: aucun</li>
+                        <li>loop: false</li>
+                        <li>autoplay: true</li>
+                        <li>avec pagination</li>
+                        <li>sans navigation</li>
+                    </ul>
+                </div>
+                <div class="carousel swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="assets/images/food1.jpg" alt="Photo d'un restaurant" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/images/food2.jpg" alt="Photo d'un restaurant" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/images/food3.jpg" alt="Photo d'un restaurant" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/images/food4.jpg" alt="Photo d'un restaurant" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/images/food5.jpg" alt="Photo d'un restaurant" />
+                        </div>
+                    </div>
+
+                    <!-- N'oubliez pas votre pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <!-- Carousel foret -->
+            <section class="section">
+                <div class="wrapper">
+                    <h2>Photos de forêts (2.5 photo à la fois)</h2>
+                    <ul>
+                        <li>variant: split</li>
+                        <li>loop: true</li>
+                        <li>sans pagination</li>
+                        <li>avec navigation</li>
+                    </ul>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="assets/images/forest1.jpg" alt="Photo d'une forêt" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/images/forest2.jpg" alt="Photo d'une forêt" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/images/forest3.jpg" alt="Photo d'une forêt" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/images/forest4.jpg" alt="Photo d'une forêt" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/images/forest5.jpg" alt="Photo d'une forêt" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/images/forest6.jpg" alt="Photo d'une forêt" />
+                            </div>
+                        </div>
+                        <!-- N'oubliez pas votre navigation -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Carousel foret et resto-->
+            <section class="section">
+                <div class="wrapper">
+                    <h2>Photos de forêts (2 photos à la fois)</h2>
+                    <ul>
+                        <li>variant: split</li>
+                        <li>loop: false</li>
+                        <li>avec pagination</li>
+                        <li>avec navigation</li>
+                    </ul>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="assets/images/forest1.jpg" alt="Photo d'une forêt" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/images/food4.jpg" alt="Photo d'une forêt" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/images/forest3.jpg" alt="Photo d'une forêt" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/images/food1.jpg" alt="Photo d'une forêt" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/images/food5.jpg" alt="Photo d'une forêt" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/images/forest6.jpg" alt="Photo d'une forêt" />
+                            </div>
+                        </div>
+                        <!-- N'oubliez pas votre navigation -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        <!-- N'oubliez pas votre pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
