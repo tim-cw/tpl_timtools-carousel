@@ -1,8 +1,8 @@
 # Semaine 03 - Exercice 02 - Ma première composante
 
-L'exercice consiste à créer votre première composante. Comme nous voulons nous rapproché de la mentalité Orienté Objet, nous allons créer une classe pour gérer tout nos carrousel.
+L'exercice consiste à créer votre première composante. Comme nous voulons nous rapprocher des principes de l'Orienté Objet et de la réutilisabilité, nous allons créer une classe pour gérer tous nos carrousel.
 
-Vous utiliserez des techniques que vous avez apprises dans les exercices précédents et devrez être capable de le mettre en place par vous-même.
+Vous utiliserez des techniques que vous avez apprises dans les exercices précédents et devrez être capable de le mettre en place par vous-même en suivant les indications et en vous référant à vos notes de cours.
 <br><br>
 
 ## RÉFÉRENCES

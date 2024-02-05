@@ -26,12 +26,12 @@
 // COMPONENTS
 // Composants d'interface utilisateur spécifiques.
 
-// @import '../../node_modules/swiper/swiper.scss';
-// @import '../../node_modules/swiper/modules/pagination/pagination';
-// @import '../../node_modules/swiper/modules/navigation/navigation';
-// @import '../../node_modules/swiper/modules/autoplay/autoplay';
+/*
+Ici serait une bonne idée de charger les styles de swiper (Avant les components de votre projet). PS, supprimez donc cette ligne par la suite.
+*/
+
 @import 'components/buttons';
-@import 'components/demo';
+@import 'components/section';
 @import 'components/carousel';
 
 // UTILITIES
